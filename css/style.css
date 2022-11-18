@@ -1,1 +1,23 @@
-
+body {
+  background-color: black;
+  font-color: white;
+}
+h1 {
+  font: 20px
+}
+p {
+   font: 12px
+   font-color: green; 
+}
+.divi {
+  border: 2px;
+  border-style: dotted;
+  height: 100px;
+  width: 100px;
+}
+.letters {
+list-style-type: lower-alpha;
+}
+.squared {
+list-style-type: square;
+}
