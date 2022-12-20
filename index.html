@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Siili sivusto</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  width: 100%;
+  text-align: center;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" >Etusivu</a>
+    <a href="second.html.html" >Lisää siileistä</a>
+    <a href="third.html" >Leveä siili</a>
+    <a href="fourth.html" >Galleria</a>
+</nav>
+
+
+
+<header>
+  <h2>Siili sivusto</h2>
+</header>
+
+<section>
+
+  
+  <article>
+    <h1>Siili</h1>
+    
+    Tällä sivustolla voit löytää sälää siileistä. Siili eli eurooppalainen siili (Erinaceus europaeus) on siilien (Erinaceidae) heimoon kuuluva piikikäs nisäkäslaji. Se on yöeläin, jota esiintyy Länsi-Euroopassa sekä Pohjois-Euroopan lauhkeimmissa osissa. Suomessa laji elää aina Perämeren pohjukassa asti, satunnaisesti pohjoisempanakin. Sitä tavataan niittyjen reuna-alueilla ja kulttuuriympäristöissä, joissa on sopivasti suojaisia pesäpaikkoja.
+
+    Täysikasvuinen siili on noin 20–30 senttimetriä pitkä ja painaa 0,4–1,2 kilogrammaa. Se elää keskimäärin kolmen tai neljän vuoden ikäiseksi. Suurimmassa osassa Eurooppaa siili viettää talven horroksessa, joka Suomessa kestää kuudesta seitsemään kuukautta.
+    <img src="photos/siili2.jpg" alt="siili" width="100%" height="50%">    
+</article>
+</section>
+
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>

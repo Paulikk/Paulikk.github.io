@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kybersiili</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  width: 100%;
+  text-align: center;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  text-align: center;  
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" >Etusivu</a>
+    <a href="second.html.html" >Lisää siileistä</a>
+    <a href="third.html" >Leveä siili</a>
+    <a href="fourth.html" >Galleria</a>
+</nav>
+
+
+
+<header>
+  <h2>Kybersiili</h2>
+</header>
+
+<section>
+
+  
+  <article>
+    <img src="photos/kybersiili.jpeg" alt="siili" width="50%" height="25%"> 
+
+    <p>Öisin siilit liikkuvat kokoonsa nähden melko paljon, vaikka silloinkin ne saattavat lepäillä välillä paikoillaan. Vilkkaimmillaan siilit ovat pari tuntia ennen keskiyötä. Illan ja alkuyön ne käyttävät yleensä ruoanetsintään ja aamuyön ympäristön tutkimiseen ja pesän rakentamiseen.
+</p>
+    </article>
+</section>
+
+<footer>
+</footer>
+
+</body>
+</html>
+</head>
